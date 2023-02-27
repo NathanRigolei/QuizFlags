@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./flags/icon_brasil.png" />
+    <title>Quiz Flags</title>
+    <link href="./style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+      <div id="startcont">
+        <div id="start">
+          <h1>QUAL É A BANDEIRA?</h1>
+          <button id="btnstart">START</button>
+        </div>
+      </div>
+      <div id="difmenus">
+        <div id="difficulty">
+          <h1>DIFICULDADE</h1>
+          <button id="easy" class="btndifficulty">FÁCIL</button>
+          <button id="medium" class="btndifficulty">MÉDIO</button>
+          <button id="hard" class="btndifficulty">DIFÍCIL</button><br />
+          <button id="all" class="btndifficulty">TODAS AS BANDEIRAS</button>
+        </div>
+      </div>
+      <div id="question">
+        <div id="conjquest">
+          <h1 id="perg">QUAL É A BANDEIRA?</h1>
+          <div id="quest"></div>
+          <ul>
+            <li class="alt"></li>
+            <li class="alt"></li>
+            <li class="alt"></li>
+            <li class="alt"></li>
+            <li class="alt" id="ult"></li>
+          </ul>
+          <div id="result"></div>
+          <div id="score"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./script/script.js" type="module"></script>
+  </body>
+</html>
